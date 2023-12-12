@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit JS</title>
+    <link rel="stylesheet" href="./src/dist/output.css">
+    <link rel="icon" href="https://fav.farm/✅" />
+    <script src="./src/js/script.js"></script>
+</head>
+<body class="bg-image bg-center text-[10px] font-sans text-center">
+    <div class="keys flex flex-1 min-h-screen items-center justify-center">
+        <div data-key="KeyA" class="key border-[.4rem]  rounded-md m-1 text-[1.5rem] p-[1rem] py-[.5rem] transition-all
+        duration-75 w-[10rem] text-center text-white border-[rgba(0,0,0,0.4)] shadow-black ease-linear">
+            <kbd class="block text-[4rem]">A</kbd>
+            <span class="sound"></span>
+        </div>
+        <div data-key="KeyS" class="key border-[.4rem] rounded-md m-1 text-[1.5rem] px-[1rem] py-[.5rem] transition-all
+        duration-75 w-[10rem] text-center text-white border-[rgba(0,0,0,0.4)] shadow-black ease-linear">
+            <kbd class="block text-[4rem]">S</kbd>
+            <span class="sound"></span>
+        </div>
+        <div data-key="KeyD" class="key border-[.4rem] rounded-md m-1 text-[1.5rem] px-[1rem] py-[.5rem] transition-all
+        duration-75 w-[10rem] text-center text-white border-[rgba(0,0,0,0.4)] shadow-black ease-linear">
+            <kbd class="block text-[4rem]">D</kbd>
+            <span class="sound"></span>
+        </div>
+        <div data-key="KeyF" class="key border-[.4rem] rounded-md m-1 text-[1.5rem] px-[1rem] py-[.5rem] transition-all
+        duration-75 w-[10rem] text-center text-white border-[rgba(0,0,0,0.4)] shadow-black ease-linear">
+            <kbd class="block text-[4rem]">F</kbd>
+            <span class="sound"></span>
+        </div>
+        <div data-key="KeyG" class="key border-[.4rem] rounded-md m-1 text-[1.5rem] px-[1rem] py-[.5rem] transition-all
+        duration-75 w-[10rem] text-center text-white border-[rgba(0,0,0,0.4)] shadow-black ease-linear">
+            <kbd class="block text-[4rem]">G</kbd>
+            <span class="sound"></span>
+        </div>
+        <div data-key="KeyH" class="key border-[.4rem] rounded-md m-1 text-[1.5rem] px-[1rem] py-[.5rem] transition-all
+        duration-75 w-[10rem] text-center text-white border-[rgba(0,0,0,0.4)] shadow-black ease-linear">
+            <kbd class="block text-[4rem]">H</kbd>
+            <span class="sound"></span>
+        </div>
+        <div data-key="KeyJ" class="key border-[.4rem] rounded-md m-1 text-[1.5rem] px-[1rem] py-[.5rem] transition-all
+        duration-75 w-[10rem] text-center text-white border-[rgba(0,0,0,0.4)] shadow-black ease-linear">
+            <kbd class="block text-[4rem]">J</kbd>
+            <span class="sound"></span>
+        </div>
+        <div data-key="KeyK" class="key border-[.4rem] rounded-md m-1 text-[1.5rem] px-[1rem] py-[.5rem] transition-all
+        duration-75 w-[10rem] text-center text-white border-[rgba(0,0,0,0.4)] shadow-black ease-linear">
+            <kbd class="block text-[4rem]">K</kbd>
+            <span class="sound"></span>
+        </div>
+        <div data-key="KeyL" class="key border-[.4rem] rounded-md m-1 text-[1.5rem] px-[1rem] py-[.5rem] transition-all
+        duration-75 w-[10rem] text-center text-white border-[rgba(0,0,0,0.4)] shadow-black ease-linear">
+            <kbd class="block text-[4rem]">L</kbd>
+            <span class="sound"></span>
+        </div>
+    </div>
+
+    <audio data-key="KeyA" src="./sounds/clap.wav"></audio>
+    <audio data-key="KeyS" src="./sounds/hihat.wav"></audio>
+    <audio data-key="KeyD" src="./sounds/kick.wav"></audio>
+    <audio data-key="KeyF" src="./sounds/openhat.wav"></audio>
+    <audio data-key="KeyG" src="./sounds/boom.wav"></audio>
+    <audio data-key="KeyH" src="./sounds/ride.wav"></audio>
+    <audio data-key="KeyJ" src="./sounds/snare.wav"></audio>
+    <audio data-key="KeyK" src="./sounds/tom.wav"></audio>
+    <audio data-key="KeyL" src="./sounds/tink.wav"></audio>
+
+</body>
+</html>

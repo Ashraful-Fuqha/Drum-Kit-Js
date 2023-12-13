@@ -14,11 +14,11 @@ function playSound(e){
     console.log("Changaa")
     audio.currentTime = 0;
     audio.play();
-    key.classList.add('scale-[1.1]', 'shadow-yellow-500')
+    key.classList.add('scale-[1.1]','shadow-[5px_5px_50px_-10px_rgba(234_179_8_5)]')
     key.classList.replace('border-[rgba(0,0,0,0.4)]','border-yellow-500');
 
     ontransitionend = (e) => {
-    e.target.classList.remove('scale-[1.1]','shadow-yellow-500')
+    e.target.classList.remove('scale-[1.1]','shadow-[5px_5px_50px_-10px_rgba(234,179,8,5)]')
     e.target.classList.replace('border-yellow-500','border-[rgba(0,0,0,0.4)]');
     };
 }

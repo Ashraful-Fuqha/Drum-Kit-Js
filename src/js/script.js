@@ -24,3 +24,12 @@ function playSound(e){
 }
 
 window.addEventListener('keydown', playSound)
+
+const key = document.querySelectorAll('.key')
+key.forEach(keyChar =>{
+    keyChar.addEventListener('click', () => {
+        const audio = document.querySelector(`audio[data-key="${keyChar.dataset.key}"]`)
+        audio.currentTime = 0
+        audio.play()
+    })
+})
